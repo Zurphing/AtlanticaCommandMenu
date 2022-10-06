@@ -1,0 +1,27 @@
+title: Quadratum
+description: Replace the Kingdom Hearts I Command Menu with Quadratum.
+assets:
+- name: remastered/field2d/us/zz0command.2dd/US_zz0command_2dd0.png
+  multi:
+  - name: remastered/field2d/us/zz0command.2dd/US_zz0command_2dd0.png
+  - name: remastered/field2d/fr/zz0command.2dd/FR_zz0command_2dd0.png
+  - name: remastered/field2d/gr/zz0command.2dd/GR_zz0command_2dd0.png
+  - name: remastered/field2d/it/zz0command.2dd/IT_zz0command_2dd0.png
+  - name: remastered/field2d/sp/zz0command.2dd/SP_zz0command_2dd0.png
+  platform: pc
+  method: copy
+  source:
+  - name: remastered/field2d/us/zz0command.2dd/US_zz0command_2dd0.png
+    type: copy
+- name: field2d/us/zz0command.2dd
+  multi:
+  - name: field2d/us/zz0command.2dd
+  - name: field2d/fr/zz0command.2dd
+  - name: field2d/gr/zz0command.2dd
+  - name: field2d/it/zz0command.2dd
+  - name: field2d/sp/zz0command.2dd
+  platform: pc
+  method: copy
+  source:
+  - name: field2d/us/zz0command.2dd
+    type: copy
